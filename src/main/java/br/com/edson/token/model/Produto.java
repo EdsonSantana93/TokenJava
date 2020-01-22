@@ -30,8 +30,4 @@ public class Produto {
 	public void setPreco(float preco) {
 		this.preco = preco;
 	}
-	
-	public String toString() {
-		return "{\"codigo\":"+codigo+",\"titulo\":\""+titulo+"\",\"detalhes\":"+detalhes+"\",\"preco\":"+preco+"}";
-	}
 }
